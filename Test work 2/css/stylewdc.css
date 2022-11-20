@@ -1,0 +1,99 @@
+.newspaper {
+  column-count: 3;
+  column-gap: 80px;
+	position:relative;
+	top:100px;
+  column-rule: 2px solid #701AC7;
+}
+
+
+.button2 {
+  background-color: #701AC7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	transition: all 0.5s;
+}
+
+#codecademybut {
+	position:relative;
+	top:170px;
+	left:160px;
+	
+	
+}
+.button2:hover {
+  background-color: black;
+  color: white;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#w3schoolsbut {
+	position:relative;
+	top:170px;
+	left:700px;
+	
+	
+}
+
+#generalassemblybut {
+	position:relative;
+	top:170px;
+	left:1150px;
+	
+	
+}
+
+#codeacademytitle {
+	position:relative;
+	top:60px;
+	left:160px;
+	display: inline
+	
+}
+
+#W3schoolstitle {
+	position:relative;
+	top:60px;
+	left:700px;
+	display: inline
+	
+}
+
+#Dashtitle {
+	position:relative;
+	top:60px;
+	left:1200px;
+	display: inline
+	
+}

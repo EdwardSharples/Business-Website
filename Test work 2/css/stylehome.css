@@ -1,0 +1,14 @@
+html {
+    height: 2000px;
+}
+body {
+    min-height: 2000px;
+}
+
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}

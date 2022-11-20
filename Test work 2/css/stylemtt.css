@@ -1,0 +1,127 @@
+/* Setting fade transition - this is the only minimum CSS you need */
+body {
+  transition: background-color 1s ease;
+}
+
+/* styling for demo, can ignore or adapt as needed */
+body {
+  color: #000;
+  background-color: #f4f4f4;
+  text-align: center;
+  font-size: 120%;
+  line-height: 1.618;
+}
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  /* outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
+}
+h1, h2 {
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+}
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+	font-family: sans-serif;
+}
+a {
+  color: #4332CF;
+}
+
+.logo {
+float:left;
+	
+	
+}
+
+.staff1title {
+	position: relative;
+	top: -250px;
+	left:200px;
+	
+	
+}
+
+#staff1text {
+		position:relative;
+		left: -450px;
+		top:50px;
+		  font-family: sans-serif;
+		  border-radius: 25px;
+		  background: #AE61FA;
+		  padding: 20px; 
+		  width: 1800px;
+		  height: 300px; 
+		color: white;
+}
+
+
+
+.staff1img {
+		position: relative;
+		left: 200px;
+	
+	
+}
+
+.staff2title {
+	position: relative;
+	top: -250px;
+	left:195px;
+	
+	
+}
+#staff2text {
+		position:relative;
+		left: -450px;
+		top:50px;
+		  font-family: sans-serif;
+		  border-radius: 25px;
+		  background: #f73f49;
+		  padding: 20px; 
+		  width: 1800px;
+		  height: 300px; 
+		color: white;
+}
+
+.staff2img {
+		position: relative;
+		left: 200px;
+	
+	
+}
+
+.staff3title {
+	position: relative;
+	top: -250px;
+	left:195px;
+	
+}
+
+#staff3text {
+		position:relative;
+		left: -450px;
+		top:50px;
+		  font-family: sans-serif;
+		  border-radius: 25px;
+		  background: #262431;
+		  padding: 20px; 
+		  width: 1800px;
+		  height: 300px; 
+		color: white;
+}
+
+.staff3img {
+		position: relative;
+		left: 200px;
+	
+	
+}
+

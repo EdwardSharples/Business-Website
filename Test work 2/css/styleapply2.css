@@ -1,0 +1,16 @@
+
+
+.apply2title {
+	color:black;
+	text-align: center;
+	position:relative;
+	
+}
+
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
